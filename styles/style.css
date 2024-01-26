@@ -353,14 +353,6 @@ nav ul li a:hover {
     color: var(--primaryIconColorHover);
 }
 
-.portfolio-title a svg:hover {
-    fill: var(--primaryIconColorHover);
-}
-
-.portfolio-title a svg {
-    transition: 0.2s ease-in-out;
-}
-
 .portfolio-tags {
     display: flex;
     gap: 1rem;
@@ -481,6 +473,7 @@ footer {
 /* Blog Section */
 #blogs {
     padding: 0 6rem;
+    background-color: var(--primaryBackgroundColor);
 }
 
 .blogs .pre-title {
@@ -490,7 +483,7 @@ footer {
 .blog {
     border-radius: var(--itemBorderRadius);
     overflow: hidden;
-    border: 2px solid var(--borderColor);
+    border: 1px solid var(--borderColor);
 }
 
 .blog:hover {
@@ -522,7 +515,6 @@ footer {
 .blog h4 {
     font-weight: 500;
     font-size: 1.2rem;
-    margin: 1rem 0;
 }
 
 .blog h4:hover {
