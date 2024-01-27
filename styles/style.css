@@ -392,7 +392,7 @@ nav ul li a:hover {
     padding: .75rem 1.3rem;
     font-family: "Roboto", sans-serif;
     background-color: var(--secondaryBackgroundColor);
-    border: 1px solid var(--borderColor);
+    border: 2.5px solid var(--borderColor);
     border-radius: 3px;
     resize: none;
 }
