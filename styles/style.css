@@ -472,7 +472,7 @@ footer {
 
 /* Blog Section */
 #blogs {
-    padding: 0 6rem;
+    padding: var(--sectionPadding);
     background-color: var(--primaryBackgroundColor);
 }
 
