@@ -110,6 +110,10 @@
     }
 
     
+    /* Contacts Section */
+    .contacts {
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 640px) {
