@@ -110,12 +110,6 @@
     }
 
      /* Contacts Section */
-     #contacts {
-        grid-template-columns: 1fr;
-        height: fit-content;
-    }
-
-
     .contact-left {
         margin-right: 1rem;
     }
