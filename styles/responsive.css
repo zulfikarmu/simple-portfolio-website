@@ -108,6 +108,17 @@
     footer {
         padding: 2rem 0;
     }
+
+     /* Contacts Section */
+     #contacts {
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+
+
+    .contact-left {
+        margin-right: 1rem;
+    }
 }
 
 @media screen and (max-width: 640px) {
